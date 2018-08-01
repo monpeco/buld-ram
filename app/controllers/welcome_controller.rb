@@ -3,5 +3,9 @@ class WelcomeController < ApplicationController
   end
 
   def sample
+    if(params.has_key?(:id))
+      @sample_id = params[:id]
+    end
+    #byebug
   end
 end
