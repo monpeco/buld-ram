@@ -8,4 +8,7 @@ class WelcomeController < ApplicationController
     end
     #byebug
   end
+  
+  def direction
+  end
 end

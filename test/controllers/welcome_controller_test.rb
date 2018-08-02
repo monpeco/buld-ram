@@ -10,5 +10,5 @@ class WelcomeControllerTest < ActionController::TestCase
     get :sample
     assert_response :success
   end
-
+  
 end
