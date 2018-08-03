@@ -1,5 +1,10 @@
+require 'url_api'
+
 class WelcomeController < ApplicationController
   def index
+    api = UrlApi.new()
+    url = api.unique_url
+    byebug
   end
 
   def sample
